@@ -1,0 +1,17 @@
+{
+ "repos": {
+  "62b1d2a50fc1e523e2b52f4b": {
+   "paths": [
+    "/home/nicolegg/escuela-js"
+   ],
+   "defaultPath": "/home/nicolegg/escuela-js"
+  },
+  "62b1d333ba5659860da421eb": {
+   "paths": [
+    "/home/nicolegg/projectoGit"
+   ],
+   "defaultPath": "/home/nicolegg/projectoGit"
+  }
+ },
+ "version": "1.0.0"
+}

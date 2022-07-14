@@ -1221,3 +1221,39 @@ code .
 ls
 cd ecmascript/
 code .
+ls
+cd escuela-js/
+ls
+cd ..
+cd ecmascript/
+ls
+cd src/
+ls
+git status
+cd ..
+git status
+git config --edit --global 
+git add .
+git status
+git commit -m "subiendo projecto es6"
+git status
+git retome add origin git@github.com:nicolegg/Curso-scope-JS.git
+git remote add origin git@github.com:nicolegg/Curso-scope-JS.git
+git push origin master
+git status
+git add ../.bash_history 
+git status
+git add *
+git status
+git add ../.bash_logout ../.bashrc ../.cache/ ../.codestream/
+git status
+git status 
+git add .
+git commit -a "agregando y trayendo"
+git commit -m "agregando y trayendo"
+git pull origin master 
+git status 
+git push origin master 
+ls
+cd src/
+ls

@@ -100,6 +100,57 @@ function myFunction(){
 console.log(myFunction());
 
 
+//CLOSURE -LEXICAL-- ACCESO A LAS VARIABLES QUE EST´´AN DENTRO DE CADA FUNCIÓN
+const myGlobal = 0;
+function miFuncion(){
+    const miNombre = 1;
+    console.log(myGlobal);
+
+    function parent(){ //fucción interna y ya coneso tenemos un CLOSURE
+        const inner = 2;
+        console.log(miNombre, myGlobal);
+
+        function child(){
+            console.log(inner, miNombre, myGlobal);
+        }
+        return child();
+    }
+    return parent();
+
+}
+miFuncion();
+
+
+//HOISTING
+
+console.log(nameOfDog);
+var nameOfDog='Firulais';
+console.log(nameOfDog);
+
+nombrePerro();
+function nombrePerro(){
+    console.log(`El mejor perrito es ${elmo}`);
+}
+
+var elmo ='firulais';
+
+
+//Debugging
+var a = 'hello';
+function hello(){
+    let b = 'hello world';
+    const c = 'hola mundo';
+    debugger;
+}
+
+hello();
+
+
+
+nameOfDog("Elmo"); 
+function nameOfDog(name) 
+{ console.log(name); };
+
 
 
 
